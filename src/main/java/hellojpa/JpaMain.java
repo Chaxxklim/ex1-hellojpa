@@ -17,11 +17,12 @@ public class JpaMain {
         ts.begin();
 
         try {
-            Member member = new Member();
+//            Member member = new Member();
 
-            member.setUserName("C");
 //            member.setRoleType(RoleType.ADMIN);
-            em.persist(member);
+//            em.persist(member);
+//            Team team = new Team();
+//            team.set
 
 
             ts.commit();
